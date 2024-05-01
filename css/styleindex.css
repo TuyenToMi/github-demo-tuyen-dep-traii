@@ -1,0 +1,113 @@
+body{
+    overflow-x: hidden;
+}
+h1{
+    color: #0EC0C3;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.blue-text{
+    color: #0EC0C3;
+    margin: 3px auto;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding: 0;
+}
+#search{
+    width: 35%;
+}
+.center{
+    text-align: center;
+}
+.think-different{
+    height: 30px;
+}
+h3{
+    font-size: 100%;
+    color: orange;
+    font-style: italic;
+    text-align: center;
+
+}
+#menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #0EC0C3;
+    margin-bottom: 40px;
+}
+.vr-clock{
+    padding: auto;
+    margin-bottom: 10px;
+}
+.margin-bot{
+    margin-bottom: 15px;
+}
+.price{
+    font-style: normal;
+    text-align: left;
+    color: red;
+    font-weight: bold;
+}
+.vision-pro{
+    font-style: normal;
+    font-size: 100%;
+    font-weight: bold;
+}
+.text{
+    text-decoration: none;
+}
+.ip15prm-discrip{
+    color:#0EC0C3;
+}
+.footer{
+    background-color: #0EC0C3;
+    text-align: center;
+    margin: 5px 5px auto;
+    color: white;
+}
+@media only screen and (max-width: 768px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+        margin: 3px 0;
+    }
+    #header img{
+        height: 30%;
+        width: 80%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    #search{
+        width: 95%;
+    }
+    #menu{
+        width: 100%;
+        justify-content: flex-end;
+        background-color: #0EC0C3;
+        margin-bottom: 40px;
+    }
+    #new-product{
+        text-align: center;
+    }
+    .ip15{
+        box-sizing: 100px;
+    }
+    .price-sub{
+        font-style: normal;
+        font-size: 25px;
+    }
+    .no-center{
+        text-align: justify;
+    }
+
+}
+.image img{
+    box-shadow: 0 20px 20px 0;
+    
+}
